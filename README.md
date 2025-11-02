@@ -1,2 +1,2 @@
 # AW-CS-FINAL
-Final project info.
+Final project preposal in preposal.md

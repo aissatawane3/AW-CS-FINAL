@@ -2,15 +2,16 @@
 
 #### Your name
 
-TODO
+Aissata Wane
 
 #### Your section leader's name
+Aissata Wane
 
-TODO
 
 #### Project title
 
-TODO
+Aissata Wane Photography Portfolio
+
 
 ***
 
@@ -18,12 +19,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+I've mapped out what I want the site to look like/include & some platforms that I can use to get my site from.
 
 #### What have you not done for your project yet?
 
-TODO
+Taken all of my prep and and applied it to the code/site.
 
 #### What problems, if any, have you encountered?
 
-TODO
+It's most difficult finding a starting point and going from there after finishing one portion of the work.

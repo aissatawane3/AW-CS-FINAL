@@ -1,0 +1,137 @@
+/* styleing settings*/
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* lightbox settings */
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: none; /* hidden by default */
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+#close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+/* navigation */
+nav {
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f0a500;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+/* for the about page */
+.about-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.about-photo {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+/* for the home page*/
+
+.home-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; 
+  color: white;
+  background-image: url('images/IMG_1306.JPG'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-banner h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.home-banner p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
